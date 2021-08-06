@@ -18,7 +18,7 @@ function CardBox({ data }) {
         dispath({type:'SET_FAVORITE_CONTACT', contact:{...objContact}})
     };
     return (
-        <Card className={classes.root} variant="outlined">
+        <Card  variant="outlined" style={{minWidth:'20%'}}>
             <CardHeader
                 avatar={<div onClick={()=>setFavoriteContact({...data, favorite:!data.favorite})}><Avatar alt="Favorite" src={data.favorite ? star : favorite} /></div>}
             />
@@ -74,7 +74,7 @@ function CardList({ data }) {
 }
 const classes = {
     root: {
-        minWidth: 50,
+        minWidth: '16.6667%',
     }
 };
 export {CardBox, CardList};

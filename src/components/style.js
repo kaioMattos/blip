@@ -22,7 +22,7 @@ margin: auto;
 `;
 const Main = styled.div`
     background:#f5f8f9;
-    padding:5% 5%;
+    padding:10% 5%;
 `;
 
 const HeaderDetailRow = styled.div`

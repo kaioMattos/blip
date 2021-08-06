@@ -45,7 +45,7 @@ function Content() {
    
     return (
         <Main>
-            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', flexWrap: 'wrap' }}>
                 <div>
                     <h1 style={{ color: '#56616e' }}>Meus ChatBots</h1>
                 </div>
